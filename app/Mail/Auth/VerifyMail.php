@@ -22,6 +22,6 @@ class VerifyMail extends Mailable
     {
         return $this
             ->subject('Signup Confirmation')
-            ->markdown('f');
+            ->markdown('mailTemplate.register');
     }
 }
