@@ -27,7 +27,7 @@ password - secret
 2. set params to body Postman
 3. name - {{$randomUserName}}
 4. email - {{$randomExampleEmail}}
-5. password - test
+5. password - 123456 
 
 ## Open mailHot from test Mail 
 1. http://localhost:8025/
