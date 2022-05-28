@@ -3,11 +3,8 @@
 namespace App\Http\Controllers\Api\V1\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\Auth\RegisterRequest;
 use App\Models\User;
 use App\Servises\Auth\RegisterService;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Log;
 
 class LoginController extends Controller

@@ -29,7 +29,7 @@ password - secret
 4. email - {{$randomExampleEmail}}
 5. password - 123456 
 
-## Open mailHot from test Mail 
+## Open mailHog from test Mail 
 1. http://localhost:8025/
 
 ## Login
